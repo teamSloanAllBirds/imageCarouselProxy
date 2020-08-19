@@ -1,0 +1,46 @@
+/* #container {
+  margin: 100px 100px 100px 100px;
+} */
+
+/* div {
+  box-sizing: border-box;
+  border: 1px solid blue;
+} */
+
+#container {
+  max-width: 100vw;
+}
+
+.topSlice {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.leftSide {
+  justify-content: right;
+  width: 60vw;
+  min-width: 500px;
+  max-width: 750px;
+  margin: 4vw 0vw 4vw 4vw;
+}
+
+.rightSide {
+  width: 30vw;
+  min-width: 400px;
+  margin: 4vw 4vw 4vw 2vw;
+  padding: -5px 0px 0px 0px;
+}
+
+.middleSlice {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin: 4vw 4vw 4vw 4vw;
+}
+
+.bottomSlice {
+  height: 100%;
+  margin: 4vw 4vw 4vw 4vw;
+}

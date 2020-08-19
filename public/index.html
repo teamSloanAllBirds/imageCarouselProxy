@@ -2,14 +2,27 @@
 <html>
   <head>
     <title>teamSloan Allbirbs</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
   </head>
   <body>
     <div id="container">
-      <div id="imageCarousel"></div>
-      <div id="productReviews"></div>
-      <div id="productOptions"></div>
+      <div class="topSlice">
+        <div class="leftSide">
+          <div id="imageCarousel"></div>
+        </div>
+        <div class="rightSide">
+          <div id="productOptions"></div>
+        </div>
+      </div>
+      <div class="middleSlice">
+        <div id="midPageImages"></div>
+      </div>
+      <div class="bottomSlice">
+        <div id="productReviews"></div>
+      </div>
     </div>
     <script src="http://localhost:4000/bundle.js"></script>
+    <script src="http://localhost:7000/bundle.js"></script>
     <script src="http://localhost:5000/bundle.js"></script>
     <script src="http://localhost:3001/bundle.js"></script>
   </body>
