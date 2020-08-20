@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '../public')));
 app.use('/api/images/:product_id', createProxyMiddleware({ target: 'http://localhost:5000/', changeOrigin: true }));
 app.use('/api/midpageimages/:id', createProxyMiddleware({ target: 'http://localhost:7000/', changeOrigin: true }));
-app.use('/api/productreviews/reviews', createProxyMiddleware({ target: 'http://localhost:4000/', changeOrigin: true }));
+app.use('/api/productreviews/:id', createProxyMiddleware({ target: 'http://localhost:4000/', changeOrigin: true }));
 app.use('/api/productoptions/:id', createProxyMiddleware({ target: 'http://localhost:3001/', changeOrigin: true }));
 
 app.get('/:id', (req, res) => {

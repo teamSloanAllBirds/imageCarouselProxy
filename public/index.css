@@ -1,8 +1,8 @@
 /* #container {
   margin: 100px 100px 100px 100px;
 } */
-
-/* div {
+/*
+div {
   box-sizing: border-box;
   border: 1px solid blue;
 } */
@@ -22,7 +22,7 @@
   justify-content: right;
   width: 60vw;
   min-width: 500px;
-  max-width: 750px;
+  max-width: 700px;
   margin: 4vw 0vw 4vw 4vw;
 }
 
@@ -37,7 +37,7 @@
   display: flex;
   justify-content: center;
   height: 100%;
-  margin: 4vw 4vw 4vw 4vw;
+  margin: 0vw 4vw 4vw 4vw;
 }
 
 .bottomSlice {
